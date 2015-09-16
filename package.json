@@ -1,0 +1,36 @@
+{
+  "name": "ask-cm",
+  "version": "1.0.0",
+  "description": "Node CM library for ASK CS usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askfast/ask-cm.git"
+  },
+  "keywords": [
+    "ask",
+    "cm",
+    "sms"
+  ],
+  "author": "Sven Stam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/askfast/ask-cm/issues"
+  },
+  "homepage": "https://github.com/askfast/ask-cm#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "google-libphonenumber": "^1.0.4",
+    "request": "^2.62.0",
+    "xml2js": "^0.4.12"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2",
+    "should": "^7.1.0",
+    "sinon": "^1.16.1"
+  }
+}
